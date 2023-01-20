@@ -1,0 +1,9 @@
+# import Author from './author/schema.graphql'
+# import Book from './book/schema.graphql'
+
+type Query {
+  books: [Book]
+  book(id: ID!): Book
+  authors: [Author]
+  author(id: ID!): Author
+}

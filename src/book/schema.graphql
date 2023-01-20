@@ -1,0 +1,7 @@
+# import Author from '../author/schema.graphql'
+
+type Book {
+  id: ID!
+  title: String!
+  author: Author
+}
